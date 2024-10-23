@@ -1,0 +1,15 @@
+### 所有用户查询
+GET http://localhost:8181/api/users?size=20
+Content-Type: application/json;charset=utf-8
+
+### 单个用户查询
+GET http://localhost:8181/api/users/1
+
+### 所有机构查询
+GET http://localhost:8181/api/companies
+
+### 单个机构查询
+GET http://localhost:8181/api/companies/1
+Content-Type: application/json;charset=utf-8
+
+### 部分字段展示使用投影，另外实体使用摘要
